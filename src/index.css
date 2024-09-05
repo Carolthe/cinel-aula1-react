@@ -6,11 +6,6 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -25,6 +20,7 @@ body {
 h1 {
   font-size: 16px;
   color: #1a1a1a;
+  margin: 0;
 }
 
 button {
@@ -36,10 +32,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
   width: 300px;
+  
 }
 
 button:hover {
-  border-color: #0ab918;
+  border-color: #19ff44;
 }
 
 button:focus,
@@ -56,11 +53,13 @@ img{
 
 p{
   color: #1a1a1a;
+  margin: 0;
 }
 
 .price{
   color: #0ab918;
   font-size: 20px;
+  margin: 0%;
 }
 
 .card{
